@@ -1,0 +1,15 @@
+lr: 0.0001
+weight_decay: 0.1
+batch_size: 64
+D: 256
+seq_len: 256
+hdim: 768
+num_layers: 24
+num_heads: 12
+dropout: 0.0
+seed: 0
+adam_betas: [0.9, 0.98]
+n_batches: 1_200_000
+net_save_path: net.pt
+eval_every: 100
+eval_batches: 25
